@@ -17,7 +17,7 @@ connectDB()
         console.log(`Server is running at port : ${process.env.PORT || 8000}`)
     })
 })
-.catch((error)=>{
+.catch((error)=>{   
     console.log("MONGO DB CONNECTION FAILED",error)
 })
 
